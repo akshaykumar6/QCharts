@@ -1,0 +1,136 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	background-color: #f2f2f2;
+}
+#wrapper{
+	height: 100%;
+	width: 100%;
+}
+#header{
+	height: 20%;
+	width: 100%;
+	background-color: #f3f3f3;
+	border-bottom: 1px solid #CCCCCC;
+	-webkit-box-shadow: inset 1px 2px 1px 1px #CCCCCC;
+     box-shadow: inset 1px 2px 1px 1px #CCCCCC;
+}
+#main{
+	position: relative;
+	height: 75%;
+	width: 100%;
+}
+#data{
+	position: absolute;
+	height: 496px;
+	width: 267px;
+	background-color: #fafafa;
+	border-right: 1px solid #CCCCCC;
+	overflow: auto;
+}
+#viewPoint{
+	position:absolute;
+	top:0px;
+	left:268px; 
+	height: 496px;
+	width: 1095px;
+	background-color: #ffffff;
+}
+#footer{
+	height: 4.6%;
+	width: 100%;
+	background-color: #eaeaea;
+	border-top: 1px solid #CCCCCC;
+	background-image: 
+}
+#tableData{
+	height: 80%;
+	width: 100%;
+	clear: both;
+}
+#dataRow{
+	height: 15%;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+}
+.inputData{
+	height: 20px;
+	width: 40%;
+	margin: 5px;
+}
+table{
+	border-collapse: collapse;
+	text-align: center;
+	width: 100%;
+}
+#logo{
+	float: left;
+	width: 25%;
+	height: 100%;
+	border-right: 1px solid #CCCCCC;
+}
+#chartType{
+	float: left;
+	width: 25%;
+	height: 100%;
+	border-right: 1px solid #CCCCCC;
+}
+#format{
+	float: left;
+	width: 30%;
+	height: 100%;
+	border-right: 1px solid #CCCCCC;
+}
+#download{
+	float: left;
+	width: 17.7%;
+	height: 100%;
+	
+}
+#chartOptions{
+	display: block;
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+#formChartTitle{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+
+
+}
+#logoImg{
+	display: block;
+	width: 90%;
+	height: 70%;
+	margin: 7% 5%;
+}
+
+
+.chartImg{
+	float: left;
+	display: block;
+	width: 100%;
+	height: 45%;
+	padding: 0px 2px 0px 0px; 
+}
+.chartImg:hover{
+	background-color: #e0e0e0;
+}
+.input_hidden {
+    position: absolute;
+    left: -9999px;
+}
+#chartOptions label {
+    display: inline-block;
+    width: 23%;
+}
+input[type=radio]:checked +label{
+	background-color: #ccc;
+} 
