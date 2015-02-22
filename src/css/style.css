@@ -134,6 +134,6 @@ table{
 input[type=radio]:checked +label{
 	background-color: #ccc;
 } 
-.footer-ul{
-	margin-top: 5px;
+.footer-ul li{
+	margin-top: 5px !important;
 }
