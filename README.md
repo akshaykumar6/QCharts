@@ -1,6 +1,6 @@
 QCharts
 =======
 
-Web application to create charts
+Single-page web application to create pie, line, bar and doughnut charts.
 
-Website : http://aksharma.uphero.com/qcharts.html
+Website : http://akshaykumar6.github.io/QCharts/
